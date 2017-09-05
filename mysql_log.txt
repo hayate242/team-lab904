@@ -1,0 +1,5 @@
+myspl
+
+grant all privileges on *.* to super@'%' identified by 'pass' with grant option;
+drop user 'super'@'localhost';
+select user,host from mysql.user;

@@ -1,0 +1,7 @@
+pip3 install pystan
+python3 setup.py install
+
+pip3 install pymysql
+sudo yum install python-devel mysql-devel
+
+pip3 install requests_oauthlib
