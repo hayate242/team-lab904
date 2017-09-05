@@ -1,0 +1,7 @@
+scp -r -i ~/.ssh/intern904.pem teamlab-0904 ec2-user@13.114.193.61:/home/ec2-user/
+
+
+Gemfile置き換え
+gem 'therubyracer', platforms: :ruby
+
+bundle install
