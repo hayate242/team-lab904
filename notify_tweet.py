@@ -30,8 +30,8 @@ class notify_tweet:
         # クエリを実行する
         # sql = "SELECT university,department,major,lesson,year,datetime FROM contents where datetime > '2017-04-27 10:33:00'"
         if self.lastTime :
-            sql = "SELECT university,department,major,lesson,year,created_at FROM contents where datetime > '"+str( self.lastTime )+"'"
-            print("SELECT university,department,major,lesson,year,created_at FROM contents where datetime > '"+str( self.lastTime )+"'")
+            sql = "SELECT university,department,major,lesson,year,created_at FROM contents where created_at > '"+str( self.lastTime )+"'"
+            print("SELECT university,department,major,lesson,year,created_at FROM contents where created_at > '"+str( self.lastTime )+"'")
         else:
             sql = "SELECT university,department,major,lesson,year,created_at FROM contents"
         cur.execute(sql)

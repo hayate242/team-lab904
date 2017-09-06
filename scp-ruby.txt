@@ -5,3 +5,4 @@ Gemfile置き換え
 gem 'therubyracer', platforms: :ruby
 
 bundle install
+sudo gem install mysql2 -v '0.4.9'

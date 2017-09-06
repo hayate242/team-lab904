@@ -9,7 +9,7 @@ ACCESS_TOKEN        = '881025654090747904-8CLYjfOiFssgzLJuWHYonT3LRXZaklR'
 ACCESS_TOKEN_SECRET = 'rv6jwgo2jjd5UxiN8OOD9n7Vai1Eaf7Bog3rNUargf7Mr'
 
 
-    
+
 def search_tw_and_tw():
     try:
         t = Twitter(auth=OAuth(ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET_KEY))
@@ -22,11 +22,11 @@ def search_tw_and_tw():
             t.statuses.update(status=tw["text"])
 #   errorが出ても無視
     except Exception as e:
-        print(e)    
-    
+        print(e)
+
 
 if __name__ == "__main__":
-    
+
     while True:
         search_tw_and_tw()
         time.sleep(3)
