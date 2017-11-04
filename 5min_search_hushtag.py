@@ -3,10 +3,10 @@ from twitter import *
 import time
 
 #apiキー情報設定
-CONSUMER_KEY        = 'HnMPhlOt5eJQz0TzqKZXP2ztu'
-CONSUMER_SECRET_KEY = 'lOishur9V9YFLCipTguzsTX1KbDugbDBDnbCu0zfFA1zBFysKV'
-ACCESS_TOKEN        = '881025654090747904-8CLYjfOiFssgzLJuWHYonT3LRXZaklR'
-ACCESS_TOKEN_SECRET = 'rv6jwgo2jjd5UxiN8OOD9n7Vai1Eaf7Bog3rNUargf7Mr'
+CONSUMER_KEY        = ''
+CONSUMER_SECRET_KEY = ''
+ACCESS_TOKEN        = ''
+ACCESS_TOKEN_SECRET = ''
 
 
 
